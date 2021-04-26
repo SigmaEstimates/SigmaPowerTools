@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sigma.script.bundle version="0">
+	<ID>AAABYPHQLMODZ4C3SAAA</ID>
+	<name/>
+	<version>1.0</version>
+	<description/>
+	<URL/>
+	<authorID>AAADINXQLM2DN4C3UMAA</authorID>
+	<authorName>sigma_estimates</authorName>
+	<authorURL/>
+	<productID>AAABYPHQLMODZ4C3SAAA</productID>
+	<options/>
+	<files>
+		<file>
+			<source>sortaz.png</source>
+			<target>sortaz.png</target>
+			<encrypt>false</encrypt>
+		</file>
+		<file>
+			<source>!!powertools.pas</source>
+			<target>!!powertools.pas</target>
+			<encrypt>true</encrypt>
+		</file>
+		<file>
+			<source>Delete.png</source>
+			<target>Delete.png</target>
+			<encrypt>false</encrypt>
+		</file>
+	</files>
+</sigma.script.bundle>
