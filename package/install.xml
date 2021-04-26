@@ -1,0 +1,18 @@
+<sigma.package.manifest>
+    <id>AAABYPHQLMODZ4C3SAAA</id>
+    <name>Sigma Power Tools</name>
+    <version>1.0.0.0</version>
+    <description>Sigma Power tools, enhancing the features of Sigma.</description>
+    <productURL>http://www.sigmaestimates.com</productURL>
+    <authorID>sigma_estimates</authorID>
+    <authorName>Sigma Estimates A/S</authorName>
+    <authorURL>http://www.sigmaestimates.com</authorURL>
+    <actions>
+        <action type="copy">
+            <source>sigmapowertools.sigmabundle</source>
+            <target>sigmapowertools.sigmabundle</target> <!-- File renamed on install, folder defaults to %install% -->
+            <replace>yes</replace> <!-- Always replace -->
+        </action>
+        <action type="restart"/> <!-- Restart Sigma -->
+    </actions>
+</sigma.package.manifest>
