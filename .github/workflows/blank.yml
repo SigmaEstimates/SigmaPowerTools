@@ -29,7 +29,7 @@ jobs:
       - name: Building SigmaPackage
         shell: cmd
         run: .\package\build.bat
-        working-directory: .\package
+        # working-directory: .\package
         
       - name: Download SigmaPackage
         uses: actions/download-artifact@v2.0.9
