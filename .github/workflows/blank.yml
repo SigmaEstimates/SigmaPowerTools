@@ -27,6 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Building SigmaPackage
+        shell: cmd
         run: package/build.bat
         working-directory: ./package
         
