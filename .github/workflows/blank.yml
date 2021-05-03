@@ -27,9 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Building SigmaPackage
-        shell: cmd
-        run: ${GITHUB_WORKSPACE}\package\build.bat
-        working-directory: ${GITHUB_WORKSPACE}\package
+        run: $GITHUB_WORKSPACE/package/build.bat
+        working-directory: $GITHUB_WORKSPAC/package
         
       - name: Download SigmaPackage
         uses: actions/download-artifact@v2.0.9
