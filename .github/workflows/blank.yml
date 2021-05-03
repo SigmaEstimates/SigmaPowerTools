@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Building SigmaPackage
         working-directory: ./package
-        run: build.bat
+        run: package/build.bat
         
       - name: Download SigmaPackage
         uses: actions/download-artifact@v2.0.9
