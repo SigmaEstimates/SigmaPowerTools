@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build SigmaPackage
 
 # Controls when the action will run. 
 on:
@@ -27,8 +27,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Building SigmaPackage
-        run: $GITHUB_WORKSPACE/package/build.bat
-        working-directory: $GITHUB_WORKSPAC/package
+        run: echo $GITHUB_WORKSPACE
+
+      - name: Building SigmaPackage
+        run: ./package/build.bat
+        working-directory: ./package
         
       - name: Download SigmaPackage
         uses: actions/download-artifact@v2.0.9
