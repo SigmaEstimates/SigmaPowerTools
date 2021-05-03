@@ -33,6 +33,9 @@ jobs:
         run: ./build.bat
         working-directory: ./package
         
+      - name: Show dir
+        run: dir ./package
+        
       - name: Download SigmaPackage
         uses: actions/download-artifact@v2.0.9
         with:
