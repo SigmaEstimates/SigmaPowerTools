@@ -28,6 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: package/build.bat
+        working-directory: package/
         
       - name: Download a Build Artifact
         uses: actions/download-artifact@v2.0.9
