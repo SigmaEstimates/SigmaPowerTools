@@ -30,7 +30,7 @@ jobs:
         run: echo $GITHUB_WORKSPACE
 
       - name: Building SigmaPackage
-        run: ./package/build.bat
+        run: ./build.bat
         working-directory: ./package
         
       - name: Download SigmaPackage
