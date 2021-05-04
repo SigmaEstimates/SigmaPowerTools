@@ -41,4 +41,4 @@ jobs:
         with:
           # Artifact name
           name: SigmaPackage
-          path: packages\AAABYPHQLMODZ4C3SAAA.sigmapackage
+          path: ${{ github.workspace }}/packages/AAABYPHQLMODZ4C3SAAA.sigmapackage
