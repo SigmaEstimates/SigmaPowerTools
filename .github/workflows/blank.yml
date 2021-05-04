@@ -34,11 +34,11 @@ jobs:
         working-directory: ./package
         
       - name: Show dir
-        run: dir ./package
+        run: dir ${{ github.workspace }}\package
         
       - name: Upload SigmaPackage artifact
         uses: actions/upload-artifact@v2.2.3
         with:
           # Artifact name
           name: SigmaPackage
-          path: ${{ github.workspace }}/packages/AAABYPHQLMODZ4C3SAAA.sigmapackage
+          path: ${{ github.workspace }}\packages\AAABYPHQLMODZ4C3SAAA.sigmapackage
