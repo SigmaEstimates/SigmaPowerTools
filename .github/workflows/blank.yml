@@ -33,7 +33,7 @@ jobs:
         run: ./build.bat
         working-directory: ./package
         
-      - name: Show dir
+      - name: Show dir package dir contents
         run: dir ${{ github.workspace }}\package
         
       - name: Upload SigmaPackage artifact
@@ -41,4 +41,4 @@ jobs:
         with:
           # Artifact name
           name: SigmaPackage
-          path: ${{ github.workspace }}\packages\AAABYPHQLMODZ4C3SAAA.sigmapackage
+          path: package/AAABYPHQLMODZ4C3SAAA.sigmapackage
