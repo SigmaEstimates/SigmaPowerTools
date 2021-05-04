@@ -41,7 +41,7 @@ jobs:
         with:
           # Artifact name
           name: SigmaPackage
-          path: packages/AAABYPHQLMODZ4C3SAAA.sigmapackage
+          path: packages\AAABYPHQLMODZ4C3SAAA.sigmapackage
 
       # Runs a set of commands using the runners shell
       - name: Provide status
