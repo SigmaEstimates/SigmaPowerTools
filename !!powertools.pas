@@ -8,7 +8,8 @@ uses
   System.UI.Dialogs,
   System.UI.Layout,
   System.UI.Progress,
-  System.Localization;
+  System.Localization,
+  CostPerArea;
 
 type
 
@@ -105,6 +106,7 @@ end;
 constructor TSigmaPowerTools.Create;
 begin
     AddRibbon();
+    var cpa := TCostPrArea.Create(FRibbonGroup); // create instance to add CostPrArea functionality
 end;
 
 destructor TSigmaPowerTools.Destroy;
