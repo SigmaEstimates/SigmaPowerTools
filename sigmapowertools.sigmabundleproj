@@ -8,7 +8,7 @@
 	<authorID/>
 	<authorName/>
 	<authorURL/>
-	<productID>AAABYPHQLMODZ4C3SAAA</productID>
+	<productID/>
 	<options/>
 	<files>
 		<file>
@@ -19,7 +19,7 @@
 		<file>
 			<source>!!powertools.pas</source>
 			<target>!!powertools.pas</target>
-			<encrypt>true</encrypt>
+			<encrypt>false</encrypt>
 		</file>
 		<file>
 			<source>Delete.png</source>
