@@ -31,7 +31,6 @@ jobs:
 
       - name: Building SigmaPackage
         run: ./build.bat
-        working-directory: ./package
         
       - name: Show dir package dir contents
         run: dir ${{ github.workspace }}\package
