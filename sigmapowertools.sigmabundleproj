@@ -9,21 +9,52 @@
 	<authorName/>
 	<authorURL/>
 	<productID/>
-	<options/>
+	<options>
+	</options>
 	<files>
 		<file>
-			<source>sortaz.png</source>
-			<target>sortaz.png</target>
+			<source>src\CostPerArea.Settings.pas</source>
+			<target>CostPerArea.Settings.pas</target>
 			<encrypt>false</encrypt>
 		</file>
 		<file>
-			<source>!!powertools.pas</source>
+			<source>src\CostPerArea.pas</source>
+			<target>CostPerArea.pas</target>
+			<encrypt>false</encrypt>
+		</file>
+		<file>
+			<source>src\!!powertools.pas</source>
 			<target>!!powertools.pas</target>
 			<encrypt>false</encrypt>
 		</file>
 		<file>
-			<source>Delete.png</source>
-			<target>Delete.png</target>
+			<source>src\icons\sortaz.png</source>
+			<target>icons\sortaz.png</target>
+			<encrypt>false</encrypt>
+		</file>
+		<file>
+			<source>src\icons\gear.png</source>
+			<target>icons\gear.png</target>
+			<encrypt>false</encrypt>
+		</file>
+		<file>
+			<source>src\icons\editarea.png</source>
+			<target>icons\editarea.png</target>
+			<encrypt>false</encrypt>
+		</file>
+		<file>
+			<source>src\icons\Delete.png</source>
+			<target>icons\Delete.png</target>
+			<encrypt>false</encrypt>
+		</file>
+		<file>
+			<source>src\icons\costprarea.png</source>
+			<target>icons\costprarea.png</target>
+			<encrypt>false</encrypt>
+		</file>
+		<file>
+			<source>src\icons\calc_costprarea.png</source>
+			<target>icons\calc_costprarea.png</target>
 			<encrypt>false</encrypt>
 		</file>
 	</files>
