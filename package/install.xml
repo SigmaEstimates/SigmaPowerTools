@@ -8,7 +8,10 @@
     <authorName>Sigma Estimates A/S</authorName>
     <authorURL>http://www.sigmaestimates.com</authorURL>
     <actions>
-        <action type="copy">
+        <action type="eula" required="true">
+			<source>TermsOfUse.rtf</source>
+		</action>
+		<action type="copy">
             <source>sigmapowertools.sigmabundle</source>
             <target>sigmapowertools.sigmabundle</target> <!-- File renamed on install, folder defaults to %install% -->
             <replace>yes</replace> <!-- Always replace -->
