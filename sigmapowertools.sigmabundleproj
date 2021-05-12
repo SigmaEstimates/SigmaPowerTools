@@ -28,33 +28,33 @@
 			<encrypt>false</encrypt>
 		</file>
 		<file>
-			<source>src\icons\sortaz.png</source>
-			<target>icons\sortaz.png</target>
+			<source>src\sortaz.png</source>
+			<target>sortaz.png</target>
 			<encrypt>false</encrypt>
 		</file>
 		<file>
-			<source>src\icons\gear.png</source>
-			<target>icons\gear.png</target>
+			<source>src\gear.png</source>
+			<target>gear.png</target>
 			<encrypt>false</encrypt>
 		</file>
 		<file>
-			<source>src\icons\editarea.png</source>
-			<target>icons\editarea.png</target>
+			<source>src\editarea.png</source>
+			<target>editarea.png</target>
 			<encrypt>false</encrypt>
 		</file>
 		<file>
-			<source>src\icons\Delete.png</source>
-			<target>icons\Delete.png</target>
+			<source>src\Delete.png</source>
+			<target>Delete.png</target>
 			<encrypt>false</encrypt>
 		</file>
 		<file>
-			<source>src\icons\costprarea.png</source>
-			<target>icons\costprarea.png</target>
+			<source>src\costprarea.png</source>
+			<target>costprarea.png</target>
 			<encrypt>false</encrypt>
 		</file>
 		<file>
-			<source>src\icons\calc_costprarea.png</source>
-			<target>icons\calc_costprarea.png</target>
+			<source>src\calc_costprarea.png</source>
+			<target>calc_costprarea.png</target>
 			<encrypt>false</encrypt>
 		</file>
 	</files>

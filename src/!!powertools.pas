@@ -126,7 +126,7 @@ begin
 
   var Item := FRibbonGroup.Items.Add(TRibbonLargeButtonItem) as TRibbonLargeButtonItem;
   Item.ButtonStyle := rbsDropDown;
-  Item.LargeGlyph.LoadFromFile('icons\sortaz.png', true);
+  Item.LargeGlyph.LoadFromFile('sortaz.png', true);
   var Action = Application.Actions.Add;
   Action.Caption := _('Sort current page');
   Item.Action := Action;
@@ -173,7 +173,7 @@ begin
   Action.Caption := _('Batch Delete Components');
   Item.Action := Action;
   Item.OnClick := RemoveComponents;
-  Item.LargeGlyph.LoadFromFile('icons\delete.png', true);
+  Item.LargeGlyph.LoadFromFile('delete.png', true);
   Action.OnUpdate := procedure(A: TAction) begin
        A.Enabled := Application.ActiveProject <> nil;
   end;

@@ -176,7 +176,7 @@ begin
 
   FAreaButton := FRibbonGroup.Items.Add(TRibbonLargeButtonItem) as TRibbonLargeButtonItem;
   FAreaButton.ButtonStyle := rbsDropDown;
-  FAreaButton.LargeGlyph.LoadFromFile('icons\costprarea.png', true);
+  FAreaButton.LargeGlyph.LoadFromFile('costprarea.png', true);
   var Action = Application.Actions.Add;
   FAreaButton.Action := Action;
   Action.OnUpdate := procedure(A: TAction) begin
@@ -185,17 +185,17 @@ begin
 
   var subItem := FAreaButton.DropDownMenu.Items.Add(TRibbonButtonItem);
   subItem.Caption := _('Set area');
-  subItem.Glyph.LoadFromFile('icons\editarea.png', true);
+  subItem.Glyph.LoadFromFile('editarea.png', true);
   subItem.OnClick := SetArea;
 
   subItem := FAreaButton.DropDownMenu.Items.Add(TRibbonButtonItem);
   subItem.Caption := _('Recalculate project');
-  subItem.Glyph.LoadFromFile('icons\calc_costprarea.png', true);
+  subItem.Glyph.LoadFromFile('calc_costprarea.png', true);
   subItem.OnClick := FullCalculate;
 
   subItem := FAreaButton.DropDownMenu.Items.Add(TRibbonButtonItem);
   subItem.Caption := _('Settings');
-  subItem.Glyph.LoadFromFile('icons\gear.png', true);
+  subItem.Glyph.LoadFromFile('gear.png', true);
   subItem.OnClick := OpenSettings;
 end;
 
